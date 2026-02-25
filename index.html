@@ -1,160 +1,142 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ônix Beauty & Care | Salão Premium no Flamengo</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<title>Ônix Beauty & Care | Salão Sofisticado e Elegante no Catete – RJ</title>
+
+<meta name="description" content="Ônix Beauty & Care é um salão sofisticado e elegante no Catete – Rio de Janeiro. Especialista em transformação capilar, atendimento personalizado e experiência premium em beleza.">
+
+<meta name="keywords" content="salão no Catete, salão sofisticado Catete, cabeleireiro no Catete RJ, progressiva Catete, manicure Catete, salão de beleza Catete Rio de Janeiro">
+
+<meta name="author" content="Ônix Beauty & Care">
+
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1940/1940993.png">
 
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #0f0f0f;
-    color: #f5f5f5;
-    line-height: 1.6;
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background:#111;
+    color:#fff;
 }
 
-h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
+header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+    text-align:center;
+    padding:120px 20px;
 }
 
-section {
-    padding: 80px 20px;
-    max-width: 1100px;
-    margin: auto;
+header h1 {
+    font-size:42px;
+    margin-bottom:15px;
 }
 
-.hero {
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-    url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=2070') center/cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 20px;
-    margin-bottom: 30px;
-    color: #d4af37;
+header p {
+    font-size:20px;
+    max-width:700px;
+    margin:0 auto 30px;
 }
 
 .btn {
-    background-color: #d4af37;
-    color: #000;
-    padding: 14px 28px;
-    text-decoration: none;
-    font-weight: 500;
-    border-radius: 30px;
-    transition: 0.3s;
+    display:inline-block;
+    padding:15px 35px;
+    background:#c9a227;
+    color:#111;
+    font-weight:bold;
+    text-decoration:none;
+    border-radius:30px;
+    transition:0.3s;
 }
 
 .btn:hover {
-    background-color: #fff;
+    background:#e6c65c;
+}
+
+section {
+    padding:70px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+section h2 {
+    text-align:center;
+    margin-bottom:40px;
+    font-size:32px;
 }
 
 .services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:30px;
 }
 
 .card {
-    background-color: #1a1a1a;
-    padding: 30px;
-    border-radius: 15px;
-    transition: 0.3s;
+    background:#1b1b1b;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    transition:0.3s;
 }
 
 .card:hover {
-    transform: translateY(-8px);
+    transform:translateY(-5px);
+    background:#222;
 }
 
-.card h3 {
-    color: #d4af37;
-    margin-bottom: 10px;
+footer {
+    background:#000;
+    text-align:center;
+    padding:40px 20px;
+    font-size:14px;
 }
-
-.footer {
-    background: #000;
-    text-align: center;
-    padding: 40px 20px;
-    font-size: 14px;
-    color: #aaa;
-}
-
-a {
-    color: #d4af37;
-    text-decoration: none;
-}
-
 </style>
 </head>
 
 <body>
 
-<section class="hero">
-    <h1>Ônix Beauty & Care</h1>
-    <p>Elegância, exclusividade e cuidado premium no Flamengo</p>
-    <a class="btn" href="https://wa.me/5521993330718" target="_blank">Agendar pelo WhatsApp</a>
-</section>
+<header>
+<h1>Salão Sofisticado e Elegante no Catete</h1>
+<p>Especialista em transformação capilar, atendimento personalizado e experiência premium em beleza no coração do Catete – Rio de Janeiro.</p>
+<a href="https://wa.me/5521993330718" class="btn">Agendar pelo WhatsApp</a>
+</header>
 
 <section>
-    <h2>Sobre Nós</h2>
-    <p>
-        No Ônix Beauty & Care, oferecemos uma experiência sofisticada e personalizada.
-        Nosso espaço foi criado para proporcionar conforto, bem-estar e resultados impecáveis.
-    </p>
-</section>
-
-<section>
-    <h2>Nossos Serviços</h2>
-    <div class="services">
-        <div class="card">
-            <h3>Corte & Escova</h3>
-            <p>Estilo moderno e acabamento perfeito.</p>
-        </div>
-        <div class="card">
-            <h3>Coloração Premium</h3>
-            <p>Técnicas avançadas para realçar sua beleza.</p>
-        </div>
-        <div class="card">
-            <h3>Tratamentos Capilares</h3>
-            <p>Hidratação, nutrição e reconstrução profunda.</p>
-        </div>
-    </div>
-</section>
-
-<section>
-    <h2>Localização</h2>
-    <p>Rua do Catete, 311 – Galeria São Luiz – Flamengo, Rio de Janeiro</p>
-    <p>
-        <a href="https://share.google/vkbhV3fByyP5vDaxZ" target="_blank">
-            Ver no Google Maps
-        </a>
-    </p>
-</section>
-
-<section style="text-align:center;">
-    <h2>Pronta para transformar seu visual?</h2>
-    <a class="btn" href="https://wa.me/5521993330718" target="_blank">Fale Conosco Agora</a>
-</section>
-
-<div class="footer">
-    © 2026 Ônix Beauty & Care – Todos os direitos reservados
+<h2>Nossos Serviços</h2>
+<div class="services">
+<div class="card">
+<h3>Transformação Capilar</h3>
+<p>Cortes modernos, coloração profissional e técnicas avançadas para realçar sua beleza com sofisticação.</p>
 </div>
+<div class="card">
+<h3>Tratamentos Premium</h3>
+<p>Hidratação profunda, reconstrução e alinhamento capilar com produtos de alta performance.</p>
+</div>
+<div class="card">
+<h3>Manicure & Estética</h3>
+<p>Cuidados completos para mãos, pés e estética com padrão elevado de atendimento.</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Localização</h2>
+<p style="text-align:center;">
+Rua do Catete, 311 – Loja 118<br>
+Galeria São Luiz<br>
+Catete – Rio de Janeiro – RJ
+</p>
+<p style="text-align:center;">
+<a href="https://share.google/vkbhV3fByyP5vDaxZ" class="btn">Ver no Google</a>
+</p>
+</section>
+
+<footer>
+<p>Ônix Beauty & Care – Salão de Beleza no Catete – Rio de Janeiro</p>
+<p>WhatsApp: (21) 99333-0718</p>
+</footer>
 
 </body>
 </html>
